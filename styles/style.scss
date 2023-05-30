@@ -7,6 +7,9 @@ $almost-black: hsl(0, 0%, 8%);
     color: black !important;
     border-color: black !important;
 }
+body{
+    background-color: $almost-white;
+}
 @media (max-width:992px){
     div.mainbody{
         margin:0px auto;
@@ -24,7 +27,7 @@ $almost-black: hsl(0, 0%, 8%);
     }
 
 }
-img.d-none.d-lg-block.img-fluid{
-    width: 88%;
-}
+// img.d-none.d-lg-block.img-fluid{
+//     width: 88%;
+// }
 
